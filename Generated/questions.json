@@ -1,44 +1,96 @@
 {
     "questions": [
         {
-            "id": "aedb9cd6-9521-4c09-844d-cf85f0c7cd9e",
-            "question": "Identify the correct sentence:",
+            "id": "da4c47f8-f377-4f9b-bf20-12636a087ae8",
+            "interest": "vehicle",
+            "subject": "grammar",
+            "question": "Which sentence is grammatically correct?",
             "choices": [
                 {
-                    "a": "The students was excited about the field trip."
+                    "a": "The car had broke down."
                 },
                 {
-                    "b": "The students were excited about the field trip."
+                    "b": "The car has broken down."
                 },
                 {
-                    "c": "The students are excited about the field trip."
+                    "c": "The car was broken down."
                 },
                 {
-                    "d": "The student were excited about the field trip."
+                    "d": "The car is broke down."
                 }
             ],
             "answer": "b",
-            "created_at": "2024-12-08T05:37:32.435817"
+            "discussion": "\"Had broke\" is incorrect grammar. The correct past tense of \"break\" is \"broke\" or \"broken\". \"Has broken down\" is the present perfect tense, which indicates that the car is no longer broken down. \"Was broken down\" is the past tense, which indicates that the car was broken down in the past. \"Is broke down\" is incorrect grammar. The correct present tense of \"break\" is \"breaks\".",
+            "created_at": "2024-12-08T16:13:51.106258"
         },
         {
-            "id": "3dccaae8-611f-4bc9-bccf-5c5e513b2c09",
-            "question": "Select the correct verb tense for the sentence: \"I ____ (study) for my exam tomorrow.\"",
+            "id": "f81d5398-ea39-41ea-baec-966075b92530",
+            "interest": "vehicle",
+            "subject": "grammar",
+            "question": "Which sentence uses the correct form of the verb \"to be\"?",
             "choices": [
                 {
-                    "a": "will study"
+                    "a": "The car is a red."
                 },
                 {
-                    "b": "will be studying"
+                    "b": "The car is red."
                 },
                 {
-                    "c": "studied"
+                    "c": "The car be red."
                 },
                 {
-                    "d": "study"
+                    "d": "The car are red."
+                }
+            ],
+            "answer": "b",
+            "discussion": "\"Is a red\" is incorrect grammar. The correct present tense of \"to be\" with singular nouns is \"is\". \"Is red\" is the correct present tense of \"to be\" with singular nouns. \"Be red\" is incorrect grammar. The correct present tense of \"to be\" with singular nouns is \"is\". \"Are red\" is incorrect grammar. The correct present tense of \"to be\" with plural nouns is \"are\".",
+            "created_at": "2024-12-08T16:13:51.106258"
+        },
+        {
+            "id": "3fe5e0a1-b3cd-4744-81b3-3a97b874dbff",
+            "interest": "anything",
+            "subject": "grammar",
+            "question": "I love to travel and ___ new places.",
+            "choices": [
+                {
+                    "a": "explore"
+                },
+                {
+                    "b": "exploring"
+                },
+                {
+                    "c": "explores"
+                },
+                {
+                    "d": "being explore"
                 }
             ],
             "answer": "a",
-            "created_at": "2024-12-08T05:37:32.435817"
+            "discussion": "\"Explore\" is the correct answer because it is the base form of the verb and is used after \"love to.\" \"Exploring\" is incorrect because it is the present participle form of the verb. \"Explores\" is incorrect because it is the third person singular form of the verb. \"Being explore\" is incorrect because it is not a grammatically correct phrase.",
+            "created_at": "2024-12-08T16:16:17.015690"
+        },
+        {
+            "id": "c2bfdf46-314c-43fa-91e2-fa4098edfb07",
+            "interest": "anything",
+            "subject": "grammar",
+            "question": "The book that I read yesterday was very ___",
+            "choices": [
+                {
+                    "a": "interested"
+                },
+                {
+                    "b": "interesting"
+                },
+                {
+                    "c": "interest"
+                },
+                {
+                    "d": "interests"
+                }
+            ],
+            "answer": "b",
+            "discussion": "\"Interesting\" is the correct answer because it is an adjective that describes the book. \"Interested\" is incorrect because it is the past participle form of the verb. \"Interest\" is incorrect because it is a noun. \"Interests\" is incorrect because it is the plural form of the noun.",
+            "created_at": "2024-12-08T16:16:17.015690"
         }
     ]
 }

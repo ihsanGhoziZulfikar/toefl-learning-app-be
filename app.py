@@ -13,13 +13,20 @@ def generate_questions():
     """
     Endpoint to generate multiple-choice questions and answers
     """
+    number = request.args.get('number', "anything")
+    cefr_level = request.args.get('cefr_level', "anything")
+    interest = request.args.get('interest', "anything")
+    subject = request.args.get('subject', "anything")
+
     with open("response.json",'r') as f:
         response_json = json.load(f)
 
     api_response = generate_evaluate_chain.invoke({
-        "number": 2,
-        "subject": 'grammar',
-        "tone": 'conversational',
+        "number": number,
+        "cefr_level": cefr_level,
+        "interest": interest,
+        "subject": subject,
+        "tone": "conversational",
         "response_json": response_json
     })
 
@@ -37,11 +44,14 @@ def generate_questions():
     for key, value in quiz.items():
         question = {
             "id": str(uuid.uuid4()),
+            "interest": interest,
+            "subject": subject,
             "question": value["mcq"],
             "choices": [{"a": value["options"]["a"]}, {"b": value["options"]["b"]},
                         {"c": value["options"]["c"]}, {"d": value["options"]["d"]}],
             "answer": value["correct"],
-            "created_at": datetime.utcnow().isoformat()
+            "discussion": value["discussion"],
+            "created_at": datetime.now().isoformat()
         }
         questions.append(question)
 
