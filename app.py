@@ -34,8 +34,7 @@ def generate_questions():
     print(api_response)
 
     try:
-        # quiz = json.loads(api_response["quiz"])
-        quiz = ast.literal_eval(api_response["quiz"])  # Convert single-quoted string to Python dictionary
+        quiz = ast.literal_eval(api_response["quiz"])
     except json.JSONDecodeError as e:
         return jsonify({"error": f"Failed to parse quiz data: {str(e)}"}), 500
 
@@ -44,6 +43,7 @@ def generate_questions():
     for key, value in quiz.items():
         question = {
             "id": str(uuid.uuid4()),
+            "cefr_level": cefr_level,
             "interest": interest,
             "subject": subject,
             "question": value["mcq"],

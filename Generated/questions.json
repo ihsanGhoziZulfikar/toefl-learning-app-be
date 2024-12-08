@@ -2,6 +2,7 @@
     "questions": [
         {
             "id": "da4c47f8-f377-4f9b-bf20-12636a087ae8",
+            "cefr_level": "A2",
             "interest": "vehicle",
             "subject": "grammar",
             "question": "Which sentence is grammatically correct?",
@@ -25,6 +26,7 @@
         },
         {
             "id": "f81d5398-ea39-41ea-baec-966075b92530",
+            "cefr_level": "A2",
             "interest": "vehicle",
             "subject": "grammar",
             "question": "Which sentence uses the correct form of the verb \"to be\"?",
@@ -48,6 +50,7 @@
         },
         {
             "id": "3fe5e0a1-b3cd-4744-81b3-3a97b874dbff",
+            "cefr_level": "A2",
             "interest": "anything",
             "subject": "grammar",
             "question": "I love to travel and ___ new places.",
@@ -71,6 +74,7 @@
         },
         {
             "id": "c2bfdf46-314c-43fa-91e2-fa4098edfb07",
+            "cefr_level": "A2",
             "interest": "anything",
             "subject": "grammar",
             "question": "The book that I read yesterday was very ___",
@@ -91,6 +95,34 @@
             "answer": "b",
             "discussion": "\"Interesting\" is the correct answer because it is an adjective that describes the book. \"Interested\" is incorrect because it is the past participle form of the verb. \"Interest\" is incorrect because it is a noun. \"Interests\" is incorrect because it is the plural form of the noun.",
             "created_at": "2024-12-08T16:16:17.015690"
+        },
+        {
+            "id": "a487587f-31ab-4c0b-bc7f-e560ee450501",
+            "cefr_level": "B1",
+            "interest": "football",
+            "subject": "written expression",
+            "question": "Which of the following sentences is grammatically correct and best describes a football player who is both skilled and physically strong?",
+            "choices": [
+                {
+                    "a": "The player is fast and strong."
+                },
+                {
+                    "b": "The player is fast and powerfully."
+                },
+                {
+                    "c": "The player is fast and strength."
+                },
+                {
+                    "d": "The player is fast and powerful."
+                }
+            ],
+            "answer": "d",
+            "discussion": {
+                "a": "Incorrect because \"strong\" is an adjective and needs to be used in its adverb form \"strongly\" to modify the verb \"is.\"",
+                "b": "Incorrect because \"powerfully\" is not a standard English word.",
+                "c": "Incorrect because \"strength\" is a noun and cannot be used to modify a verb."
+            },
+            "created_at": "2024-12-08T17:51:35.474189"
         }
     ]
 }

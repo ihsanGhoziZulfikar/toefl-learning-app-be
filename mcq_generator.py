@@ -16,7 +16,7 @@ The tone of the quiz should be {tone}. Make sure the questions test various aspe
 
 In addition to the quiz, for each question, provide a detailed explanation of why the correct answer is right and why the incorrect options are wrong. These explanations should serve as a discussion for learners who select the wrong answers.
 
-Format your response in the structure of {response_json}, and ensure to create exactly {number} well-crafted, {subject}-focused MCQs along with discussions.
+Format your response in the json structure of {response_json}, and ensure to create exactly {number} well-crafted, {subject}-focused MCQs along with discussions.
 """
 
 quiz_generation_prompt = PromptTemplate(
